@@ -22,7 +22,7 @@ dlg = gui.DlgFromDict(dictionary=expInfo, title=expName)
 if dlg.OK == False: core.quit()  # user pressed cancel
 expInfo['date'] = data.getDateStr()  # add a simple timestamp
 expInfo['expName'] = expName
-
+#github test 
 # Setup files for saving
 if not os.path.isdir('data'):
     os.makedirs('data')  # if this fails (e.g. permissions) we will get error
